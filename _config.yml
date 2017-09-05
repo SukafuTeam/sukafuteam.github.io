@@ -1,19 +1,19 @@
 # main text of home
-name: Rodrigo Delduca
-bio: programmer and game developer
+name: Sukafu Team
+bio: Time de desenvolvimento de jogos
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: //github.com/skhaz/resume
 
-url: https://skhaz.io
+url: http://sukafuteam.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -31,28 +31,28 @@ permalink: /:title/
 #  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-# facebook: myfacebook
-twitter: skhaz
+facebook: sukafuteam
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: skhaz
-lastfm: skhaz
+github: SukafuTeam
+# lastfm: skhaz
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
-email: me@skhaz.io
+email: contato@sukafuteam.com
 
 authors:
-    skhaz:
-        name: Rodrigo Delduca
+    Sukafu Team:
+        name: André Ferreira dos Santos
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/profile.png
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -83,7 +83,7 @@ related: false
 post-advance-links: []
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
