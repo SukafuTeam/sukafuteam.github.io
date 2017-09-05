@@ -1,4 +1,4 @@
-## Rodrigo Delduca's Personal Website
+## Sukafu Team's Website
 
 See it here - [sukafuteam.com](http://sukafuteam.com)
 

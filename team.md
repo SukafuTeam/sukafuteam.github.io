@@ -3,7 +3,7 @@ title: Team
 layout: page
 ---
 
-<img style="margin: auto; display: block; max-width:200px; width:100%" src={{site.url}}/{{site.picture}}/>
+<!-- <img style="margin: auto; display: block; max-width:200px; width:100%" src={{site.url}}/{{site.picture}}/> -->
 
 <h1> Conheça as pessoas do time </h1>
 <p><strong>André Ferreira dos Santos</strong> <em>(programador</em><em>/ co-fundador<span data-redactor-tag="span"></span>) - <a href="https://www.facebook.com/toupperandre" target="_blank">Facebook</a> | <a href="https://github.com/Andre-hl2/" target="_blank">Github</a></em></p>
