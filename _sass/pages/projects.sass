@@ -1,17 +1,27 @@
 .entry-list
 	display: flex
 	flex-wrap: wrap
-	justify-content: space-between
+
 .game-entry
 	margin-bottom: 30px
 	width: 100%
 	@media (min-width: 550px)
 		width: calc(50% - 10px)
+		margin-right: 20px
+		&:nth-child(2n+2)
+			margin-right: 0
 	@media (min-width: 850px)
 		width: calc(33.3333% - 20px)
-
+		margin-right: 20px
+		&:nth-child(2n+2)
+			margin-right: 20px
+		&:nth-child(3n+3)
+			margin-right: 0
 .game-image
 	display: block
+	transition: .15s
+	&:hover
+		transform: scale(1.05)
 	img
 		width: 100%
 		display: block
