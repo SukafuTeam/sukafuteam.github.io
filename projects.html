@@ -5,18 +5,34 @@ title: Projects
 
 <h1> Projects </h1>
 
-<p><strong>Todos os nossos jogos são publicados no Itch.io<strong></p>
-<p>Você pode jogá-los clicando <a target="_blank" href="https://sukafu-team.itch.io/">aqui</a></p>
-
-<!-- <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
+<section class="entry-list">
+    {% for game in site.data.games %}
+        <article class="game-entry">
+            {% if game.image_path %}
+                <a class="game-image" href="{{ game.external_url }}" target="_blank">
+                    <img src="{{ site.url }}/assets/images/game-projects/{{ game.image_path }}">
                 </a>
-            </div>
-        {% endif %}
+            {% endif %}
+            {% if game.title %}
+                <h3 class="game-title">
+                    <a href="{{ game.external_url }}" target="_blank">
+                        {{ game.title }}
+                    </a>
+                </h3>
+            {% endif %}
+            {% if game.description %}<p class="game-description">{{ game.description }}</p>{% endif %}
+
+            {% if game.genre %}<p class="game-genre">{{ game.genre }}</p>{% endif %}
+
+            {% if game.support %}
+                <ul class="game-icons">
+                {% for support_platform in game.support %}
+                    <li>
+                        <i class="fa fa-{{support_platform}}"></i>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </article>
     {% endfor %}
-</section> -->
+</section>

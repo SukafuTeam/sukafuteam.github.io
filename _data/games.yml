@@ -1,0 +1,8 @@
+# http://fontawesome.io/icons/ icon options for 'support' property
+- title: Sukofu Duel
+  image_path: sukafu-duel.png
+  description: Decandent cake made with dark chocolate, topped of with a creamy peanut butter icing.
+  external_url: https://sukafu-team.itch.io/sukafu-radio
+  genre: Action
+  support: [globe, linux, windows, android, apple]
+

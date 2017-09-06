@@ -1,0 +1,12 @@
+games:
+  - title: Sukofu Duel2
+    image_path: https://img.itch.zone/aW1hZ2UvMTY4NTk2Lzc4MzYzNy5wbmc=/315x250%23c/p9XAST.png
+    description: Decandent cake made with dark chocolate, topped of with a creamy peanut butter icing.
+    external_url: https://sukafu-team.itch.io/sukafu-radio
+    support: [linux, windows, android, ios]
+
+  - title: Sukofu Duel2
+    image_path: https://img.itch.zone/aW1hZ2UvMTY4NTk2Lzc4MzYzNy5wbmc=/315x250%23c/p9XAST.png
+    description: Decandent cake made with dark chocolate, topped of with a creamy peanut butter icing.
+    external_url: https://sukafu-team.itch.io/sukafu-radio
+    support: [linux, windows, android, ios]

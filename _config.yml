@@ -46,6 +46,7 @@ github: SukafuTeam
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
+
 email: contato@sukafuteam.com
 
 authors:
@@ -54,10 +55,11 @@ authors:
         external-image: false
         picture: assets/images/profile.png
 
+collections:
+  games:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -96,5 +98,4 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
-
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, travis.sh, tasks]
