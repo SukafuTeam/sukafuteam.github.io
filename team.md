@@ -3,7 +3,7 @@ title: Team
 layout: page
 ---
 
-<h1> Conheça as pessoas do time </h1>
+<h1> Conheça o time </h1>
 
 <hr>
 
@@ -51,14 +51,58 @@ layout: page
 
 <p><br></p>
 
-<p><strong>Isabela Castro Nascimento</strong> <em>(artista digital) - </em><em><a href="https://www.behance.net/isabelacastro" target="_blank">Behance</a> |&nbsp;<a href="https://www.artstation.com/isacastro" target="_blank">Artstation</a></em></p>
+<p>
+	<strong>Isabela Castro Nascimento</strong>
+	<em>(artista digital) - </em>
+	<em>
+		<a href="https://www.behance.net/isabelacastro" target="_blank">
+			Behance
+		</a>
+		|&nbsp;
+		<a href="https://www.artstation.com/isacastro" target="_blank">
+			Artstation
+		</a>
+	</em>
+</p>
 
-<p><strong>Jean Quevedo</strong> <em>(músico) - </em><em><a href="https://www.facebook.com/quevedojean" target="_blank">Facebook</a>&nbsp;|&nbsp;<a href="https://soundcloud.com/jean-quevedo" target="_blank">Soundcloud</a></em></p>
+<p>
+	<strong>Jean Quevedo</strong>
+	<em>(músico) - </em>
+	<em>
+		<a href="https://www.facebook.com/quevedojean" target="_blank">
+			Facebook
+		</a>
+		&nbsp;|&nbsp;
+		<a href="https://soundcloud.com/jean-quevedo" target="_blank">
+			Soundcloud
+		</a>
+	</em>
+</p>
 
-<p><strong>Gabriele Eichel</strong> <em>(artista digital) - <a href="https://www.facebook.com/eichelgabs" target="_blank">Facebook</a></em><span></span><br></p>
+<p>
+	<strong>Gabriele Eichel</strong>
+	<em>(artista digital) -
+		<a href="https://www.facebook.com/eichelgabs" target="_blank">
+			Facebook
+		</a>
+	</em>
+</p>
 
-<p><strong>Ariadne Depine</strong> <em> (game designer) </em><a href="https://www.facebook.com/arix.fadel">Facebook</a><br></p>
+<p>
+	<strong>Ariadne Depine</strong>
+	<em> (game designer) </em>
+	<a href="https://www.facebook.com/arix.fadel">
+		Facebook
+	</a>
+</p>
 
-<p><strong>Rodrigo Stacheski</strong> <em>(programador) - <a href="https://www.facebook.com/digo.purga" target="_blank">Facebook</a></em></p>
+<p>
+	<strong>Rodrigo Stacheski</strong>
+	<em>(programador) -
+		<a href="https://www.facebook.com/digo.purga" target="_blank">
+			Facebook
+		</a>
+	</em>
+</p>
 
-<p><strong>Lucas Demo</strong><em><strong> </strong>(artista digital) -&nbsp;<a href="https://www.behance.net/Lukbebalduke" target="_blank">Behance</a> |&nbsp;<a href="https://lukbebalduke.itch.io/" target="_blank">Itch.io</a></em><br></p>
+[#]: <p><strong>Lucas Demo</strong><em><strong> </strong>(artista digital) -&nbsp;<a href="https://www.behance.net/Lukbebalduke" target="_blank">Behance</a> |&nbsp;<a href="https://lukbebalduke.itch.io/" target="_blank">Itch.io</a></em><br></p>
