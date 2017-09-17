@@ -1,0 +1,45 @@
+# http://fontawesome.io/icons/ icon options for 'support' property
+- name: André Ferreira dos Santos
+  image_path: andre.png
+  function: programador/co-fundador
+  facebook: https://www.facebook.com/toupperandre
+  github: https://github.com/Andre-hl2/
+
+- name: Lucas Ventura
+  image_path: lucas.png
+  function: artista digital/co-fundador
+  facebook: https://www.facebook.com/lucas.ventura.106
+  behance: https://www.behance.net/lucaseraer73e8
+
+- name: Leonardo Zanier Guttierrez
+  image_path: leo.png
+  function: game designer/co-fundador
+  facebook: https://www.facebook.com/leonardo.zanierguttierrez
+  twitter: https://twitter.com/leo_caverna
+
+- name: Isabela Castro Nascimento
+  image_path: isa.png
+  function: artista digital
+  behance: https://behance.net/isabelacastro
+  artstation: https://www.artstation.com/isacastro
+
+- name: Jean Quevedo
+  image_path: jean.png
+  function: músico
+  facebook: https://www.facebook.com/quevedojean
+  soundcloud: https://soundcloud.com/jean-quevedo
+
+- name: Gabriele Eichel
+  image_path: gabi.png
+  function: artista digital
+  facebook: https://www.facebook.com/eichelgabs
+
+- name: Ariadne Depine
+  image_path: ari.png
+  function: game designer
+  facebook: https://www.facebook.com/arix.fadel
+
+- name: Rodrigo Stacheski
+  image_path: rodrigo.png
+  function: programador
+  facebook: https://www.facebook.com/digo.purga

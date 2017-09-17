@@ -3,106 +3,46 @@ title: Team
 layout: page
 ---
 
-<h1> Conheça o time </h1>
+[#]:<h1> Conheça o time </h1>
 
-<hr>
-
-<p>
-	<strong>André Ferreira dos Santos</strong>
-	<em>
-		(programador / co-fundador) -
-		<a href="https://www.facebook.com/toupperandre" target="_blank">
-			Facebook
-		</a>
-		 |
-		<a href="https://github.com/Andre-hl2/" target="_blank">
-			Github
-		</a>
-	</em>
+<p style="text-align:center; margin-bottom: 0">
+	<img class="title-image" src="{{site.url}}/assets/images/team.png">
 </p>
 
-<p>
-	<strong>Lucas Ventura</strong>
-	<em>
-		(artista digital/ co-fundador) -
-		<a href="https://www.facebook.com/lucas.ventura.106" target="_blank">
-			Facebook
-		</a>
-	 |
-		<a href="https://www.behance.net/lucaseraer73e8" target="_blank">
-			Behance
-		</a>
-	</em>
-</p>
+<hr style="margin-top:0">
 
-<p>
-	<strong>Leonardo Zanier Guttierrez</strong>
-	<em>
-		(game designer/ co-fundador) -
-		<a href="https://www.facebook.com/leonardo.zanierguttierrez" target="_blank">
-			Facebook
-		</a>
-		 |
-	 	<a href="https://twitter.com/leo_caverna" target="_blank">
-	 		Twitter
-	 	</a>
-	</em>
-</p>
+<section class="entry-list">
+    {% for person in site.data.team %}
+        <article class="team-entry">
+            {% if person.image_path %}
+                <a class="team-image">
+                    <img src="{{ site.url }}/assets/images/team/{{ person.image_path }}">
+                </a>
+            {% endif %}
+            {% if person.name %}
+                <h3 class="game-title" style="text-align:center;">
+                    <a style="text-decoration: none">
+                        {{ person.name }}
+                    </a>
+                </h3>
+            {% endif %}
 
-<p><br></p>
+						{% if person.function %}<p class="game-description" style="text-align:center; margin:0">{{ person.function }}</p>{% endif %}
 
-<p>
-	<strong>Isabela Castro Nascimento</strong>
-	<em>(artista digital) - </em>
-	<em>
-		<a href="https://www.behance.net/isabelacastro" target="_blank">
-			Behance
-		</a>
-		|&nbsp;
-		<a href="https://www.artstation.com/isacastro" target="_blank">
-			Artstation
-		</a>
-	</em>
-</p>
+						<p style="text-align:center; margin:0">
+							{% if person.facebook %}<a href="{{person.facebook}}" target="_blank">Facebook</a>{%endif%}
 
-<p>
-	<strong>Jean Quevedo</strong>
-	<em>(músico) - </em>
-	<em>
-		<a href="https://www.facebook.com/quevedojean" target="_blank">
-			Facebook
-		</a>
-		&nbsp;|&nbsp;
-		<a href="https://soundcloud.com/jean-quevedo" target="_blank">
-			Soundcloud
-		</a>
-	</em>
-</p>
+							{% if person.github %}| <a href="{{person.github}}" target="_blank">Github</a>{%endif%}
 
-<p>
-	<strong>Gabriele Eichel</strong>
-	<em>(artista digital) -
-		<a href="https://www.facebook.com/eichelgabs" target="_blank">
-			Facebook
-		</a>
-	</em>
-</p>
+							{% if person.twitter %}| <a href="{{person.twitter}}" target="_blank">Twitter</a>{%endif%}
 
-<p>
-	<strong>Ariadne Depine</strong>
-	<em> (game designer) </em>
-	<a href="https://www.facebook.com/arix.fadel">
-		Facebook
-	</a>
-</p>
+							{% if person.artstation %}<a href="{{person.artstation}}" target="_blank">Artstation</a>{%endif%}
 
-<p>
-	<strong>Rodrigo Stacheski</strong>
-	<em>(programador) -
-		<a href="https://www.facebook.com/digo.purga" target="_blank">
-			Facebook
-		</a>
-	</em>
-</p>
+							{% if person.behance %}| <a href="{{person.behance}}" target="_blank">Behance</a>{%endif%}
 
-[#]: <p><strong>Lucas Demo</strong><em><strong> </strong>(artista digital) -&nbsp;<a href="https://www.behance.net/Lukbebalduke" target="_blank">Behance</a> |&nbsp;<a href="https://lukbebalduke.itch.io/" target="_blank">Itch.io</a></em><br></p>
+							{% if person.soundcloud %}| <a href="{{person.soundcloud}}" target="_blank">SoundCloud</a>{%endif%}
+						</p>
+
+        </article>
+    {% endfor %}
+</section>
