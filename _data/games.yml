@@ -1,10 +1,10 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
-- title: Sukafu Radio
-  image_path: sukafu-radio.png
-  description: A platformer/hack'n slash game where you control RD-10
-  external_url: https://sukafu-team.itch.io/sukafu-radio
+- title: Ninja Sukafu II
+  image_path: ninja-sukafu-ii.png
+  description: Jogo feito pela Sukafu Team para a Global Game Jam, edição 2015. (Eleito melhor jogo do evento na PUCPR).
+  external_url: https://sukafu-team.itch.io/ninja-sukafu-ii
   genre: Action
-  support: [windows, apple, linux]
+  support: [windows]
 
 - title: Sukafu Duel
   image_path: sukafu-duel.png
@@ -13,19 +13,19 @@
   genre: Action
   support: [globe, linux, windows, android, apple]
 
+- title: Sukafu Radio
+  image_path: sukafu-radio.png
+  description: A platformer/hack'n slash game where you control RD-10
+  external_url: https://sukafu-team.itch.io/sukafu-radio
+  genre: Action
+  support: [windows, apple, linux]
+
 - title: PrevEnchente
   image_path: prev-enchente.png
   description: Jogos desenvolvido pela Sukafu Team para a SEED's Jam, edição 2015. (Eleito melhor jogo do evento).
   external_url: https://sukafu-team.itch.io/prev-enchente
   genre: Puzzle
   support: [globe, windows, apple, android]
-
-- title: Ninja Sukafu II
-  image_path: ninja-sukafu-ii.png
-  description: Jogo feito pela Sukafu Team para a Global Game Jam, edição 2015. (Eleito melhor jogo do evento na PUCPR).
-  external_url: https://sukafu-team.itch.io/ninja-sukafu-ii
-  genre: Action
-  support: [windows]
 
 - title: Jornada Paralímpica
   image_path: jornada-paralimpica.png
@@ -40,6 +40,13 @@
   external_url: https://sukafu-team.itch.io/bounded
   genre: Puzzle
   support: [windows, linux, apple, android]
+
+- title: Ninja Sukafu
+  image_path: ninja-sukafu.png
+  description: O jogo classico original que deu origem ao Sukafu Team na Global Game Jam de 2014.
+  external_url: https://sukafu-team.itch.io/ninja-sukafu
+  genre: Platformer
+  support: [windows]
 
 - title: Sukafu Radio (Jam Version)
   image_path: sukafu-radio-jam.png
