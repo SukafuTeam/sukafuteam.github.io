@@ -20,17 +20,10 @@
   genre: Action
   support: [windows, linux, apple]
 
-- title: PrevEnchente
-  image_path: prev-enchente.png
-  description: Jogos desenvolvido pela Sukafu Team para a SEED's Jam, edição 2015. (Eleito melhor jogo do evento).
-  external_url: https://sukafu-team.itch.io/prev-enchente
-  genre: Puzzle
-  support: [globe, windows, apple, android]
-
-- title: Jornada Paralímpica
-  image_path: jornada-paralimpica.png
-  description: Jogo desenvolvido pela Sukafu Team para a Paralympic Game Jam, edição 2016. (Eleito melhor jogo do evento).
-  external_url: https://sukafu-team.itch.io/jornada-paralimpica
+- title: Sukafu Neon
+  image_path: sukafu-neon.png
+  description: Jogo desenvolvido para Global Game Jam, edição 2016.
+  external_url: https://sukafu-team.itch.io/sukafu-neon
   genre: Action
   support: [globe, windows, linux, apple, android]
 
@@ -41,19 +34,26 @@
   genre: Puzzle
   support: [windows, linux, apple, android]
 
+- title: Jornada Paralímpica
+  image_path: jornada-paralimpica.png
+  description: Jogo desenvolvido pela Sukafu Team para a Paralympic Game Jam, edição 2016. (Eleito melhor jogo do evento).
+  external_url: https://sukafu-team.itch.io/jornada-paralimpica
+  genre: Action
+  support: [globe, windows, linux, apple, android]
+
+- title: PrevEnchente
+  image_path: prev-enchente.png
+  description: Jogos desenvolvido pela Sukafu Team para a SEED's Jam, edição 2015. (Eleito melhor jogo do evento).
+  external_url: https://sukafu-team.itch.io/prev-enchente
+  genre: Puzzle
+  support: [globe, windows, apple, android]
+
 - title: Ninja Sukafu
   image_path: ninja-sukafu.png
   description: O jogo classico original que deu origem ao Sukafu Team na Global Game Jam de 2014.
   external_url: https://sukafu-team.itch.io/ninja-sukafu
   genre: Platformer
   support: [windows]
-
-- title: Sukafu Radio (Jam Version)
-  image_path: sukafu-radio-jam.png
-  description: A plataformer/hack'n slash made in Global Game Jam 2017
-  external_url: https://sukafu-team.itch.io/sukafu-radio-jam
-  genre: Action
-  support: [windows, linux, apple]
 
 - title: Supermax Last Survivor
   image_path: supermax.png
@@ -62,9 +62,9 @@
   genre: Puzzle
   support: [windows, linux, apple, android]
 
-- title: Sukafu Neon
-  image_path: sukafu-neon.png
-  description: Jogo desenvolvido para Global Game Jam, edição 2016.
-  external_url: https://sukafu-team.itch.io/sukafu-neon
+- title: Sukafu Radio (Jam Version)
+  image_path: sukafu-radio-jam.png
+  description: A plataformer/hack'n slash made in Global Game Jam 2017
+  external_url: https://sukafu-team.itch.io/sukafu-radio-jam
   genre: Action
-  support: [globe, windows, linux, apple, android]
+  support: [windows, linux, apple]
