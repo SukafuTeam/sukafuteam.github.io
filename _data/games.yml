@@ -32,7 +32,7 @@
   description: Jogo feito pelo Sukafu Team durante a Winter Game Jam 2016. (Eleito melhor jogo do evento).
   external_url: https://sukafu-team.itch.io/bounded
   genre: Puzzle
-  support: [windows, linux, apple, android]
+  support: [globe, windows, linux, apple, android]
 
 - title: Jornada Paralímpica
   image_path: jornada-paralimpica.png
