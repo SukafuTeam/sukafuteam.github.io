@@ -18,4 +18,5 @@ layout: page
 	<li>Eleito melhor jogo na Global Game Jam da PUCPR, edição 2016. (jogo <a target="_blank" href="https://sukafu-team.itch.io/sukafu-neon">Sukafu Neon</a>)</li>
 	<li>Eleito melhor jogo da Winter Game Jam de 2016. (jogo <a target="_blank" href="https://sukafu-team.itch.io/bounded">Bounded</a>)</li>
 	<li>Eleito melhor jogo (pelo público e pelo júri) da Seed's Jam de 2016. (jogo <a target="_blank" href="https://sukafu-team.itch.io/jornada-paralimpica">Jornada Paralímpica</a>)</li>
+	<li>Finalista na mostra de artes da SBGames 2017. (Jogo <a target="_blank" href="https://sukafu-team.itch.io/sukafu-duel"> Sukafu Duel </a>)</li>
 </ul>
