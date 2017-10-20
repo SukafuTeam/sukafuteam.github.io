@@ -1,6 +1,7 @@
 # main text of home
 name: Sukafu Team
 bio: Time de desenvolvimento de jogos
+title: Sukafu Team
 
 # if it's an external image, update below for true
 # better with square images
@@ -19,7 +20,7 @@ url: http://sukafuteam.com
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-108378923-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
