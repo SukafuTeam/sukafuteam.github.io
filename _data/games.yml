@@ -1,4 +1,11 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Cartolaria
+  image_path: cartolaria.png
+  description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
+  external_url: https://sukafu-team.itch.io/cartolaria
+  genre: Simulation
+  support: []
+
 - title: Ninja Sukafu II
   image_path: ninja-sukafu-ii.png
   description: Jogo feito pela Sukafu Team para a Global Game Jam, edição 2015. (Eleito melhor jogo do evento na PUCPR).
