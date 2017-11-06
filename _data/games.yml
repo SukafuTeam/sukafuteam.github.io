@@ -1,4 +1,11 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Vida
+  image_path: vida.png
+  description: VIDA é um jogo de plataforma com foco em ação, em escala de cinza e com um visual deslumbrante.
+  external_url: https://sukafu-team.itch.io/vida
+  genre: Platformer
+  support: [windows, linux, apple]
+
 - title: Cartolaria
   image_path: cartolaria.png
   description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
