@@ -9,7 +9,7 @@ layout: page
 <p>A Sukafu Team é uma equipe de desenvolvimento de jogos eletrônicos para computadores e dispositivos móveis, composta apenas por estudantes e amantes do desenvolvimento de entretenimento digital.</p>
 <p>Criada em 2014, para um evento de criação de jogos, a Global Game Jam, a Sukafu Team vem evoluindo e melhorando conforme seus integrantes também evoluem em habilidades artísticas, de programação, game design e música.</p>
 
-<h2>Premiações e indicaçoes <p class="fa fa-trophy" style="color: #ffd700"></p> </h2>
+<h2> Premiações e indicaçoes <p class="fa fa-trophy" style="color: #ffd700"></p> </h2>
 
 <ul class="skill-list">
 	<li>Eleito melhor jogo da Global Game Jam da PUCPR, edição 2015. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/ninja-sukafu-ii">Ninja Sukafu II</a> )</li>
