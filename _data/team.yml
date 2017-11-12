@@ -34,12 +34,12 @@
   function: artista digital
   facebook: https://www.facebook.com/eichelgabs
 
-- name: Ariadne Depine
-  image_path: ari.png
-  function: game designer
-  facebook: https://www.facebook.com/arix.fadel
+# - name: Ariadne Depine
+#   image_path: ari.png
+#   function: game designer
+#   facebook: https://www.facebook.com/arix.fadel
 
-- name: Rodrigo Stacheski
-  image_path: rodrigo.png
-  function: programador
-  facebook: https://www.facebook.com/digo.purga
+# - name: Rodrigo Stacheski
+#   image_path: rodrigo.png
+#   function: programador
+#   facebook: https://www.facebook.com/digo.purga
