@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.url }}/assets/images/people.png)
 
 <h2>Sobre nós</h2>
 
