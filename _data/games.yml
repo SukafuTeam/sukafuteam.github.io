@@ -1,4 +1,11 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Plasma Invaders
+  image_path: plasma-invaders.png
+  description: Controle um exército de glóbulos brancos defendendo o corpo humano de vírus e bacterias
+  external_url: https://sukafu-team.itch.io/plasma-invaders
+  genre: Strategy
+  support: [windows, linux, apple, android]
+
 - title: Vida
   image_path: vida.png
   description: VIDA é um jogo de plataforma com foco em ação, em escala de cinza e com um visual deslumbrante.
