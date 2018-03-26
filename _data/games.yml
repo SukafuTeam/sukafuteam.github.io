@@ -1,4 +1,11 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Doggonaut
+  image_path: doggonaut.png
+  description: Doggonaut é um jogo de ação e puzzle para celulares onde você controla cachorros no espaço
+  external_url: https://sukafu-team.itch.io/doggonaut
+  genre: Action/Puzzle
+  support: [apple, android]
+
 - title: Plasma Invaders
   image_path: plasma-invaders.png
   description: Controle um exército de glóbulos brancos defendendo o corpo humano de vírus e bacterias
