@@ -2,7 +2,8 @@
 - title: Doggonaut
   image_path: doggonaut.png
   description: Doggonaut é um jogo de ação e puzzle para celulares onde você controla cachorros no espaço
-  external_url: https://sukafu-team.itch.io/doggonaut
+  # external_url: https://sukafu-team.itch.io/doggonaut
+  external_url: http://sukafuteam.com/doggonaut
   genre: Action/Puzzle
   support: [apple, android]
 
