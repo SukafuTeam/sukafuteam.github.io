@@ -21,4 +21,5 @@ layout: page
 	<li>Finalista na mostra de artes da SBGames 2017. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/sukafu-duel"> Sukafu Duel</a> )</li>
 	<li>Vencedor do desafio "Pira no Cartola" que aconteceu na Brasil Game Jam 2017. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/cartolaria">Cartolaria</a> )</li>
 	<li>Eleito melhor jogo da SBGames Light Jam 2017 em conjunto com núcleo Seed's. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/vida">Vida</a> )</li>
+	<li>Eleito melhor jogo por votação da sede de Curitiba da Café Game Jam 2018. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/kingdom-blast">Kingdom Blast</a> )</li>
 </ul>
