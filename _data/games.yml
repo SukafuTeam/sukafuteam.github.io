@@ -1,4 +1,12 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Kraken Escape
+  image_path: kraken-escape.png
+  description: Escape das afiadas garras do temido Kraken, o monstro dos mares
+  external_url: https://sukafu-team.itch.io/kraken-escape
+  genre: Action
+  support: [globe, android]
+
+
 - title: Kingdom Blast
   image_path: kingdom_blast.png
   description: Encoraje os bravos guerreiros do seu exército com a melhor torcida de idade média
