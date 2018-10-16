@@ -10,6 +10,7 @@ permalink: /doggonaut
     background-color: #220d4c;
     margin: 0px;
   "
+  onload="checkDevice()"
 >
   <div style="max-width: 990px; padding: 0 15px; margin: auto; text-align: center">
     <img
@@ -17,7 +18,7 @@ permalink: /doggonaut
       alt="Doggonaut"
       style="width: 80%"
     />
-  
+
     <div
       style="
         position: relative;
@@ -40,7 +41,7 @@ permalink: /doggonaut
       >
       </iframe>
     </div>
-    
+
     <div style="margin-top: 80px; display: inline-block; text-align: center">
       <a href="https://play.google.com/store/apps/details?id=com.SukafuTeam.Doggonaut" target="_blank">
         <img
@@ -73,6 +74,16 @@ permalink: /doggonaut
       alt="Doggonaut"
       style="width: 100%"
     />
+
+  <script>
+    function checkDevice() {
+        if(navigator.userAgent.match(/Android/i)) {
+          window.location.href = "https://play.google.com/store/apps/details?id=com.SukafuTeam.Doggonaut";
+        } else if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+          window.location.href = "https://itunes.apple.com/us/app/doggonaut/id1365733576";
+        }
+    }
+  </script>
 </body>
 
 
