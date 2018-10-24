@@ -10,6 +10,7 @@ permalink: /kraken_escape
     background-color: #00c3ce;
     margin: 0px;
   "
+  onload="checkDevice()"
 >
   <img
     src="{{ site.url }}/assets/images/landing-pages/kraken-escape.png"
@@ -29,7 +30,7 @@ permalink: /kraken_escape
     >
       <iframe
         class="video-player__frame"
-        src="https://www.youtube.com/embed/PA8I-EuOaQc?rel=0"
+        src="https://www.youtube.com/embed/VvKTPk7IBnI"
         frameborder="0"
         allowfullscreen
         style="
@@ -42,14 +43,14 @@ permalink: /kraken_escape
     </div>
 
     <div style="margin-top: 80px; display: inline-block; text-align: center">
-      <a href="#" target="_blank">
+      <a href="https://play.google.com/store/apps/details?id=com.SukafuTeam.KrakenEscape" target="_blank">
         <img
           src="{{ site.url }}/assets/images/store-images/google_play.png"
           alt="Get it on Google Play"
           style="display: inline-block; width: 40%"
         />
       </a>
-      <a href="#" target="_blank">
+      <a href="https://itunes.apple.com/us/app/kraken-escape/id1427954893" target="_blank">
         <img
           src="{{ site.url }}/assets/images/store-images/app_store.png"
           alt="Download on the App Store"
@@ -73,6 +74,16 @@ permalink: /kraken_escape
       alt="Doggonaut"
       style="width: 100%"
     />
+
+  <script>
+    function checkDevice() {
+        if(navigator.userAgent.match(/Android/i)) {
+          window.location.href = "https://play.google.com/store/apps/details?id=com.SukafuTeam.KrakenEscape";
+        } else if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+          window.location.href = "https://itunes.apple.com/us/app/kraken-escape/id1427954893";
+        }
+    }
+  </script>
 </body>
 
 

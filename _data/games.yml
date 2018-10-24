@@ -1,10 +1,10 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
 - title: Kraken Escape
   image_path: kraken-escape.png
-  description: Escape das afiadas garras do temido Kraken, o monstro dos mares
-  external_url: https://sukafu-team.itch.io/kraken-escape
+  description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
+  external_url: http://sukafuteam.com/kraken_escape
   genre: Action
-  support: [globe, android]
+  support: [apple, android]
 
 
 - title: Kingdom Blast
@@ -48,6 +48,13 @@
   external_url: https://sukafu-team.itch.io/ninja-sukafu-ii
   genre: Action
   support: [windows]
+
+- title: Kraken Escape (Jam Version)
+  image_path: kraken-escape-jam.png
+  description: Escape das afiadas garras do temido Kraken, o monstro dos mares
+  external_url: https://sukafu-team.itch.io/kraken-escape-jam-version
+  genre: Action
+  support: [globe, android]
 
 - title: Sukafu Duel
   image_path: sukafu-duel.png
