@@ -21,6 +21,13 @@
   genre: Action/Puzzle
   support: [apple, android]
 
+- title: Super Lawn Cutter
+  image_path: super-lawn-cutter.png
+  description: Um pequeno jogo de puzzle onde voce deve cortar toda a grama sem cruzar o mesmo caminho duas vezes
+  external_url: https://sukafu-team.itch.io/super-lawn-cutter
+  genre: Puzzle
+  support: [globe, windows, linux, apple]
+
 - title: Plasma Invaders
   image_path: plasma-invaders.png
   description: Controle um exército de glóbulos brancos defendendo o corpo humano de vírus e bacterias
