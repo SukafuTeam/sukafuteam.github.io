@@ -1,18 +1,28 @@
 .footer-main
     border-top: 1px solid $epsilon
     padding: 10px 0
-    margin: 10px 0 0
     font-size: 1.3rem
-    color: $gama
+    color: $light
     font-weight: 300
     text-align: center
     position: relative
+
+    margin-top: 40px
+
+    background-color: $main-color
+    width: 100vw
+    position: relative
+    left: 50%
+    right: 50%
+    margin-left: -50vw
+    margin-right: -50vw
 
     &:before
         display: block
         content: " "
         width: 7px
         height: 7px
+        border-radius: 10
         border: $epsilon 1px solid
         position: absolute
         top: -5px
@@ -21,6 +31,7 @@
         background: #FFF
         box-shadow: #FFF 0 0 0 5px
         border-radius: 3px
+        background-color: $main-color
 
     > .link
         display: inline
@@ -35,18 +46,20 @@
             margin: 0
 
             &:hover
-                fill: $delta !important
+                fill: $light !important
 
     > .extra
-        color: $gama
-        margin-top: 0
+        color: $mid-light-2
+        margin-top: 10px
 
         > .link
-            color: $beta
+            color: $light
             text-decoration: none
             border-bottom: 1px solid transparent
             transition: ease-in-out all .3s
             padding-bottom: 1px
+            font-weight: bold
 
             &:hover
-                border-color: $gama
+                border-color: $mid-light
+

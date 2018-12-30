@@ -1,12 +1,25 @@
+.nav-container
+    background-color: $main-color
+    width: 100vw
+    position: relative
+    left: 50%
+    right: 50%
+    margin-left: -50vw
+    margin-right: -50vw
+
+    margin-bottom: 10px
+
 .nav,
 .nav-home
     > .list
         list-style: none
         margin: 0
         padding: 0 13px 0
+        list-style-position: inside
 
         > .item
             display: inline-block
+            vertical-align: middle
 
         > .item > .link
             display: inline-block
@@ -14,18 +27,33 @@
             font-size: 1.4rem
             padding: 20px 10px
             text-decoration: none
+            color: white
+
+            &:hover
+                color: $mid-light
+
 
 .nav
-    position: absolute
-    right: 0
-    top: 0
+    text-align: center
 
     > .list
         padding: 0 13px 0
+        list-style-position: inside
 
         > .item > .link
+            height: 30px
             font-size: 1.4rem
-            padding: 20px 10px
+            padding: 7px 15px
+            padding-top: 15px
+            margin: 0
+            border-radius: 4%
+            transition: all .4s ease-in-out
+            width: 70px
+
+        > .selected > .link
+            border-bottom: 10px
+            border-color: white
+            font-weight: bold
 
 .nav-home
     margin-top: 10px
