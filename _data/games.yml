@@ -1,4 +1,12 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Akina
+  image_path: akina.png
+  description: Help a lost dog found his home in this game made for Global Game Jam 2019
+  external_url: http://sukafuteam.com/akina
+  genre: Action
+  support: [windows, linux, apple]
+
+
 - title: Kraken Escape
   image_path: kraken-escape.png
   description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
