@@ -25,7 +25,7 @@ layout: compress
 
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper {{ page.title | downcase }}">
         {% if page.tag %}
             <div class="post">
         {% else %}

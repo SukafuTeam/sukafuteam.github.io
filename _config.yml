@@ -1,6 +1,6 @@
 # main text of home
 name: Sukafu Team
-bio: Time de desenvolvimento de jogos
+bio: Game Development Team
 title: Sukafu Team
 
 # if it's an external image, update below for true
@@ -48,7 +48,7 @@ github: SukafuTeam
 # medium: medium
 # vimeo: myvimeo
 
-email: contato@sukafuteam.com
+email: contact@sukafuteam.com
 
 authors:
     Sukafu Team:

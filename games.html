@@ -1,40 +1,41 @@
 ---
 layout: page
-title: Jogos
+title: Games
 ---
 
 <!-- <h1 class="samurai-font"> GAMES </h1> -->
-
-<hr style="margin-top:0">
-
-<section class="entry-list">
-    {% for game in site.data.games %}
-        <article class="game-entry">
-            {% if game.image_path %}
-                <a class="game-image" href="{{ game.external_url }}" target="_blank">
-                    <img src="{{ site.url }}/assets/images/game-projects/{{ game.image_path }}">
-                </a>
+<body>
+    <section class="entry-list">
+        {% for game in site.data.games %}
+            {% if game.banner %}
+            {% else %}
+                <article class="game-entry">
+                    {% if game.image_path %}
+                        <a class="game-image" href="{{ game.external_url }}" target="_blank">
+                            <img src="{{ site.url }}/assets/images/game-projects/{{ game.image_path }}">
+                        </a>
+                    {% endif %}
+                    <footer class="game-entry-footer">
+                        {% if game.title %}
+                            <h3 class="game-title">
+                                <a class="white-link" href="{{ game.external_url }}" target="_blank">
+                                    {{ game.title }}
+                                </a>
+                            </h3>
+                        {% endif %}
+                        {% if game.support %}
+                            <ul class="game-icons">
+                            {% for support_platform in game.support %}
+                                <li>
+                                    <i class="fa fa-{{support_platform}} white-icon"></i>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </footer>
+                </article>
             {% endif %}
-            {% if game.title %}
-                <h3 class="game-title">
-                    <a href="{{ game.external_url }}" target="_blank">
-                        {{ game.title }}
-                    </a>
-                </h3>
-            {% endif %}
-            {% if game.description %}<p class="game-description">{{ game.description }}</p>{% endif %}
+        {% endfor %}
+    </section>
 
-            {% if game.genre %}<p class="game-genre">{{ game.genre }}</p>{% endif %}
-
-            {% if game.support %}
-                <ul class="game-icons">
-                {% for support_platform in game.support %}
-                    <li>
-                        <i class="fa fa-{{support_platform}}"></i>
-                    </li>
-                {% endfor %}
-                </ul>
-            {% endif %}
-        </article>
-    {% endfor %}
-</section>
+</body>
