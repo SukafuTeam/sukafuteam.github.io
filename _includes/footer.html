@@ -1,4 +1,8 @@
-<footer class="footer-main">
+{% if page.title == "Home"%}
+    {% assign home = true %}
+{% endif %}
+
+<footer {% if home %} class="footer-main footer-home" {%else%} class="footer-main" {%endif%}>
     {% include social-links.html %}
 
     {{ site.name }} © {{ site.time | date: '%Y' }}
