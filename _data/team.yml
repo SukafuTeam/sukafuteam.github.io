@@ -1,24 +1,24 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
 - name: André Ferreira dos Santos
   image_path: andre.png
-  function: programador/co-fundador
-  facebook: https://www.facebook.com/toupperandre
+  function: Code & Project Management
+  instagram: https://www.instagram.com/rei_churros/
   github: https://github.com/Andre-hl2/
 
 - name: Lucas Ventura
   image_path: lucas.png
-  function: artista digital/co-fundador
+  function: Animation & UI
   facebook: https://www.facebook.com/lucas.ventura.106
   behance: https://www.behance.net/lucaseraer73e8
 
 - name: Isabela Castro Nascimento
   image_path: isa.png
-  function: artista digital
+  function: Art & Marketing
   behance: https://behance.net/isabelacastro
   artstation: https://www.artstation.com/isacastro
 
 - name: Jean Quevedo
   image_path: jean.png
-  function: músico
+  function: Music & Sound Design
   facebook: https://www.facebook.com/quevedojean
   soundcloud: https://soundcloud.com/jean-quevedo

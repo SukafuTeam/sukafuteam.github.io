@@ -10,7 +10,7 @@ layout: page
 
 <!-- PREMIACOES -->
 <!-- <h2> Premiações e indicaçoes <p class="fa fa-trophy" style="color: #ffd700"></p> </h2> -->
-<h2 class="samurai-font"> PREMIOS E INDICACOES <p class="fa fa-trophy" style="color: #ffd700"></p></h2>
+<h2 class="samurai-font"> AWARDS AND RECOGNITION <p class="fa fa-trophy" style="color: #ffb500"></p></h2>
 
 <ul class="skill-list">
 	<li>Eleito melhor jogo da Global Game Jam da PUCPR, edição 2015. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/ninja-sukafu-ii">Ninja Sukafu II</a> )</li>
@@ -27,7 +27,7 @@ layout: page
 
 
 <!-- TEAM -->
-<h2 class="samurai-font"> TIME </h2>
+<h2 class="samurai-font"> TEAM </h2>
 
 <hr style="margin-top:0">
 
@@ -51,6 +51,9 @@ layout: page
 
 						<p style="text-align:center; margin:0">
 							{% if person.facebook %}<a href="{{person.facebook}}" target="_blank">Facebook</a>{%endif%}
+
+							{% if person.instagram %}<a href="{{person.instagram}}"
+							target="_blank">Instagram</a>{%endif%}
 
 							{% if person.github %}| <a href="{{person.github}}" target="_blank">Github</a>{%endif%}
 

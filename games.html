@@ -7,34 +7,31 @@ title: Games
 <body>
     <section class="entry-list">
         {% for game in site.data.games %}
-            {% if game.banner %}
-            {% else %}
-                <article class="game-entry">
-                    {% if game.image_path %}
-                        <a class="game-image" href="{{ game.external_url }}" target="_blank">
-                            <img src="{{ site.url }}/assets/images/game-projects/{{ game.image_path }}">
-                        </a>
+            <article {% if game.banner%} class="game-banner-entry" {%else%} class="game-entry" {%endif%}>
+                {% if game.image_path %}
+                    <a class="game-image" href="{{ game.external_url }}" target="_blank">
+                        <img src="{{ site.url }}/assets/images/game-projects/{{ game.image_path }}">
+                    </a>
+                {% endif %}
+                <footer class="game-entry-footer">
+                    {% if game.title %}
+                        <h1 class="game-title">
+                            <a class="white-link" href="{{ game.external_url }}" target="_blank">
+                                {{ game.title }}
+                            </a>
+                        </h1>
                     {% endif %}
-                    <footer class="game-entry-footer">
-                        {% if game.title %}
-                            <h3 class="game-title">
-                                <a class="white-link" href="{{ game.external_url }}" target="_blank">
-                                    {{ game.title }}
-                                </a>
-                            </h3>
-                        {% endif %}
-                        {% if game.support %}
-                            <ul class="game-icons">
-                            {% for support_platform in game.support %}
-                                <li>
-                                    <i class="fa fa-{{support_platform}} white-icon"></i>
-                                </li>
-                            {% endfor %}
-                            </ul>
-                        {% endif %}
-                    </footer>
-                </article>
-            {% endif %}
+                    {% if game.support %}
+                        <ul class="game-icons">
+                        {% for support_platform in game.support %}
+                            <li>
+                                <i class="fa fa-{{support_platform}} white-icon"></i>
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                </footer>
+            </article>
         {% endfor %}
     </section>
 
