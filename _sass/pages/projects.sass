@@ -1,34 +1,80 @@
 .entry-list
 	display: flex
 	flex-wrap: wrap
+	width: 100%
+
+.games
+	width: 100%
+	padding: 0
+	max-width: 100%
 
 .game-entry
-	margin-bottom: 30px
 	width: 100%
+	max-height: 300px
+	overflow: hidden
+	position: relative
 	@media (min-width: 550px)
-		width: calc(50% - 10px)
-		margin-right: 20px
-		&:nth-child(2n+2)
-			margin-right: 0
-	@media (min-width: 850px)
-		width: calc(33.3333% - 20px)
-		margin-right: 20px
-		&:nth-child(2n+2)
-			margin-right: 20px
-		&:nth-child(3n+3)
-			margin-right: 0
+		width: calc(100% /3)
+
+	&:hover .game-image
+		transform: scale(1.05)
+
+	&:hover .game-image:before
+		background: none
+
+.game-banner-entry
+	width: 100%
+	min-height: 400px
+	max-height: 600px
+	overflow: hidden
+	position: relative
+
+	&:hover .game-image
+		transform: scale(1.05)
+
+	&:hover .game-image:before
+		background: none
+
+.game-entry-footer
+	position: absolute
+	pointer-events: none
+	bottom: 0
+	width: 100%
+	padding-bottom: 20px
+	padding-left: 20px
+
+.game-entry-footer a
+	pointer-events: auto
 
 .game-image
-	display: block
-	transition: .15s
-	&:hover
-		transform: scale(1.05)
+	display: grid
+	transition: all .30s linear
+	height: 100%
 	img
+		border-radius: 0px
+		min-height: 100%
+		min-width: 100%
 		width: 100%
-		display: block
+		margin: auto
+		object-fit: cover
+
+.game-image:before
+	content: ""
+	display: flex
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	background: rgba(0,0,0, 0.5)
+	transition: all .3s linear
 
 .game-title
 	margin: 10px 0 0 0
+
+.white-link
+	color: $light
+	text-decoration: none
 
 .game-description
 	margin: 10px 0 0 0
@@ -42,6 +88,10 @@
 	li
 		display: inline-block
 		padding: 0 5px
+
+.white-icon
+	color: $light
+
 .game-genre
 	margin: 0 0 0 0
 	line-height: 1.6
@@ -60,8 +110,5 @@
 	display: block
 	transition: .15s
 	text-align: center
-	&:hover
-		transform: scale(1.05)
 	img
 		width: 70%
-		// display: block
