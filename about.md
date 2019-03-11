@@ -11,24 +11,28 @@ layout: page
 <h2 class="samurai-font"> AWARDS AND RECOGNITION <p class="fa fa-trophy" style="color: #ffb500"></p></h2>
 
 <ul class="skill-list">
-	<li>Eleito melhor jogo da Global Game Jam da PUCPR, edição 2015. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/ninja-sukafu-ii">Ninja Sukafu II</a> )</li>
-	<li>Finalista na SBGames de 2015. (jogo <a target="_blank" href="https://sukafu-team.itch.io/ninja-sukafu-ii"> Ninja Sukafu II</a>)</li>
-	<li>Eleito melhor jogo na Seed's Jam de 2015. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/prev-enchente">PrevEnchente</a> )</li>
-	<li>Eleito melhor jogo na Global Game Jam da PUCPR, edição 2016. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/sukafu-neon">Sukafu Neon</a> )</li>
-	<li>Eleito melhor jogo da Winter Game Jam de 2016. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/bounded">Bounded</a> )</li>
-	<li>Eleito melhor jogo (pelo público e pelo júri) da Seed's Jam de 2016. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/jornada-paralimpica">Jornada Paralímpica</a> )</li>
-	<li>Finalista na mostra de artes da SBGames 2017. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/sukafu-duel"> Sukafu Duel</a> )</li>
-	<li>Vencedor do desafio "Pira no Cartola" que aconteceu na Brasil Game Jam 2017. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/cartolaria">Cartolaria</a> )</li>
-	<li>Eleito melhor jogo da SBGames Light Jam 2017 em conjunto com núcleo Seed's. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/vida">Vida</a> )</li>
-	<li>Eleito melhor jogo por votação da sede de Curitiba da Café Game Jam 2018. ( jogo <a target="_blank" href="https://sukafu-team.itch.io/kingdom-blast">Kingdom Blast</a> )</li>
+	<li>Best game at Global Game Jam 2015 in the Curitiba Jam site ( <a target="_blank" href="https://sukafu-team.itch.io/ninja-sukafu-ii">Ninja Sukafu II</a> )</li>
+	<li>SBGames 2015 finalist ( <a target="_blank" href="https://sukafu-team.itch.io/ninja-sukafu-ii"> Ninja Sukafu II</a>)</li>
+	<li>Best game at Seeds Game Jam 2015 ( <a target="_blank" href="https://sukafu-team.itch.io/prev-enchente">PrevEnchente</a> )</li>
+	<li>Best game at Global Game Jam 2016 in the Curitiba Jam site ( <a target="_blank" href="https://sukafu-team.itch.io/sukafu-neon">Sukafu Neon</a> )</li>
+	<li>Best game at Winter Game Jam 2016 ( <a target="_blank" href="https://sukafu-team.itch.io/bounded">Bounded</a> )</li>
+	<li>Best game at Seeds Game Jam 2016 ( <a target="_blank" href="https://sukafu-team.itch.io/jornada-paralimpica">Jornada Paralímpica</a> )</li>
+	<li>SBGames 2017 Art Showcase ( <a target="_blank" href="https://sukafu-team.itch.io/sukafu-duel"> Sukafu Duel</a> )</li>
+	<li>Best game at Brasil Game Jam 2017 ( <a target="_blank" href="https://sukafu-team.itch.io/cartolaria">Cartolaria</a> )</li>
+	<li>Best game at SBGames Light Jam 2017 ( <a target="_blank" href="https://sukafu-team.itch.io/vida">Vida</a> )</li>
+	<li>Best game at Café Game Jam 2018 in the Curitiba Jam site ( <a target="_blank" href="https://sukafu-team.itch.io/kingdom-blast">Kingdom Blast</a> )</li>
+	<li>Golden Cube Award 2018 finalist ( <a target="_blank" href="https://sukafu-team.itch.io/vida">Vida</a> )</li>
+	<li>SBGames 2018 Art Showcase (
+		<a target="_blank" href="https://sukafu-team.itch.io/vida"> Vida</a> |
+		<a target="_blank" href="https://sukafuteam.com/doggonaut"> Doggonaut</a> |
+		<a target="_blank" href="https://sukafu-team.itch.io/plasma-invaders"> Plasma Invaders</a> |
+		<a target="_blank" href="https://sukafuteam.com/kraken_escape"> Kraken Escape</a>
+	)</li>
+	<li>ICGJ 2019 finalist ( <a target="_blank" href="https://sukafu-team.itch.io/akina">Akina</a> )</li>
 </ul>
-
 
 <!-- TEAM -->
 <h2 class="samurai-font"> TEAM </h2>
-
-<hr style="margin-top:0">
-
 <section class="entry-list">
     {% for person in site.data.team %}
         <article class="team-entry">
