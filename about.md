@@ -2,9 +2,7 @@
 title: About
 layout: page
 ---
-<!-- SOBRE -->
-![Profile Image]({{ site.url }}/assets/images/people.png)
-
+<hr>
 <p>A Sukafu Team é uma equipe de desenvolvimento de jogos eletrônicos para computadores e dispositivos móveis, composta apenas por estudantes e amantes do desenvolvimento de entretenimento digital.</p>
 <p>Criada em 2014, para um evento de criação de jogos, a Global Game Jam, a Sukafu Team vem evoluindo e melhorando conforme seus integrantes também evoluem em habilidades artísticas, de programação, game design e música.</p>
 
@@ -54,6 +52,9 @@ layout: page
 
 							{% if person.instagram %}<a href="{{person.instagram}}"
 							target="_blank">Instagram</a>{%endif%}
+
+							{% if person.website %}<a href="{{person.website}}"
+							target="_blank">WebSite</a>{%endif%}
 
 							{% if person.github %}| <a href="{{person.github}}" target="_blank">Github</a>{%endif%}
 
