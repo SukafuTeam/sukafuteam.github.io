@@ -3,8 +3,8 @@ title: About
 layout: page
 ---
 <hr>
-<p>A Sukafu Team é uma equipe de desenvolvimento de jogos eletrônicos para computadores e dispositivos móveis, composta apenas por estudantes e amantes do desenvolvimento de entretenimento digital.</p>
-<p>Criada em 2014, para um evento de criação de jogos, a Global Game Jam, a Sukafu Team vem evoluindo e melhorando conforme seus integrantes também evoluem em habilidades artísticas, de programação, game design e música.</p>
+<p>We are a group of developers from Curitiba, Brazil. We first met in 2014 at Global Game Jam and we're together, making nice and short games ever since.</p>
+<p>We've been evolving our skills in programming, art, design and music and bringing it to the team as we build our own way of developing games. Stay around, we got a lot to show you!</p>
 
 <!-- PREMIACOES -->
 <!-- <h2> Premiações e indicaçoes <p class="fa fa-trophy" style="color: #ffd700"></p> </h2> -->
