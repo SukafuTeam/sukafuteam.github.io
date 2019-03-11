@@ -24,10 +24,13 @@
 
 .game-banner-entry
 	width: 100%
-	min-height: 400px
-	max-height: 600px
+	height: 250px
 	overflow: hidden
 	position: relative
+
+	@media (min-width: 550px)
+		max-height: 600px
+		min-height: 400px
 
 	&:hover .game-image
 		transform: scale(1.05)
