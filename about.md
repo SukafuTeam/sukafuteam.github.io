@@ -58,7 +58,7 @@ layout: page
 							target="_blank">Instagram</a>{%endif%}
 
 							{% if person.website %}<a href="{{person.website}}"
-							target="_blank">WebSite</a>{%endif%}
+							target="_blank">Portfolio</a>{%endif%}
 
 							{% if person.github %}| <a href="{{person.github}}" target="_blank">Github</a>{%endif%}
 
