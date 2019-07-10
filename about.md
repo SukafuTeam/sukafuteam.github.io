@@ -29,6 +29,7 @@ layout: page
 		<a target="_blank" href="https://sukafuteam.com/kraken_escape"> Kraken Escape</a>
 	)</li>
 	<li>ICGJ 2019 finalist ( <a target="_blank" href="https://sukafu-team.itch.io/akina">Akina</a> )</li>
+	<li>Facebook Gaming Jam 2019 winner in the category "Business" ( <a target="_blank" href="https://sukafu-team.itch.io/beezness">Beezness</a> )</li>
 </ul>
 
 <!-- TEAM -->

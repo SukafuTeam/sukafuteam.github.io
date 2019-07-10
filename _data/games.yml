@@ -49,6 +49,15 @@
 #   support: [globe, windows, linux, apple]
 #   banner: false
 
+
+- title: Beezness
+  image_path: beezness.png
+  description: Beezness é um jogo no estilo idle/tycoon.
+  external_url: https://sukafu-team.itch.io/beezness
+  genre: Simulation
+  support: []
+  banner: false
+
 - title: Plasma Invaders
   image_path: plasma-invaders.png
   description: Controle um exército de glóbulos brancos defendendo o corpo humano de vírus e bacterias
