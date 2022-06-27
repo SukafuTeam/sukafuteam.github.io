@@ -12,7 +12,7 @@ picture: assets/images/profile.png
 # and specify source (external or local).
 resume: false
 resume-external: true
-resume-url: //github.com/skhaz/resume
+#resume-url: //github.com/skhaz/resume
 
 url: http://sukafuteam.com
 # your url: http://USERNAME.github.io
@@ -91,7 +91,7 @@ show-author: false
 # do you want some animations?
 animation: true
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed

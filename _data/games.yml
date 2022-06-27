@@ -1,4 +1,12 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Ninja Sukafu - Between Worlds
+  image_path: sukafu-between-worlds.png
+  description: Be brave Ninja Sukafu, Tarkus’ life and the future of Meriluu Village are in your hands. Good Luck!
+  external_url: https://sukafu-team.itch.io/ninja-sukafu-between-worlds
+  genre: Action
+  support: [windows, apple]
+  banner: true
+
 - title: Akina
   image_path: akina.png
   description: Help a lost dog found his home in this game made for Global Game Jam 2019
@@ -41,14 +49,29 @@
   support: [windows, linux, apple]
   banner: true
 
-# - title: Super Lawn Cutter
-#   image_path: super-lawn-cutter.png
-#   description: Um pequeno jogo de puzzle onde voce deve cortar toda a grama sem cruzar o mesmo caminho duas vezes
-#   external_url: https://sukafu-team.itch.io/super-lawn-cutter
-#   genre: Puzzle
-#   support: [globe, windows, linux, apple]
-#   banner: false
+- title: Tapioca Lendária
+  image_path: tapioca-lendaria.png
+  description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
+  external_url: https://sukafu-team.itch.io/beezness
+  genre: Action
+  support: [globe]
+  banner: false
 
+- title: Lost Souls
+  image_path: lost-souls.jpeg
+  description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
+  external_url: https://sukafu-team.itch.io/beezness
+  genre: Rhythm
+  support: [windows, linux, apple]
+  banner: false
+
+- title: Super Lawn Cutter
+  image_path: super-lawn-cutter.png
+  description: Um pequeno jogo de puzzle onde voce deve cortar toda a grama sem cruzar o mesmo caminho duas vezes
+  external_url: https://sukafu-team.itch.io/super-lawn-cutter
+  genre: Puzzle
+  support: [globe, windows, linux, apple]
+  banner: false
 
 - title: Beezness
   image_path: beezness.png
