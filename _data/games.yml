@@ -52,7 +52,7 @@
 - title: Tapioca Lendária
   image_path: tapioca-lendaria.png
   description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
-  external_url: https://sukafu-team.itch.io/beezness
+  external_url: https://sukafu-team.itch.io/tapioca-lendaria
   genre: Action
   support: [globe]
   banner: false
@@ -60,7 +60,7 @@
 - title: Lost Souls
   image_path: lost-souls.jpeg
   description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
-  external_url: https://sukafu-team.itch.io/beezness
+  external_url: https://sukafu-team.itch.io/lost-souls
   genre: Rhythm
   support: [windows, linux, apple]
   banner: false
