@@ -15,16 +15,6 @@
   support: [windows, linux, apple]
   banner: true
 
-
-- title: Kraken Escape
-  image_path: kraken-escape.png
-  description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
-  external_url: http://sukafuteam.com/kraken_escape
-  genre: Action
-  support: [apple, android]
-  banner: true
-
-
 - title: Kingdom Blast
   image_path: kingdom_blast.png
   description: Encoraje os bravos guerreiros do seu exército com a melhor torcida de idade média
@@ -38,7 +28,7 @@
   description: Doggonaut é um jogo de ação e puzzle para celulares onde você controla cachorros no espaço
   external_url: http://sukafuteam.com/doggonaut
   genre: Action/Puzzle
-  support: [apple, android]
+  support: [apple]
   banner: true
 
 - title: Vida
@@ -71,6 +61,14 @@
   external_url: https://sukafu-team.itch.io/super-lawn-cutter
   genre: Puzzle
   support: [globe, windows, linux, apple]
+  banner: false
+
+- title: Kraken Escape
+  image_path: kraken-escape-jam.png
+  description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
+  external_url: http://sukafuteam.com/kraken_escape
+  genre: Action
+  support: []
   banner: false
 
 - title: Beezness
@@ -161,13 +159,13 @@
   genre: Puzzle
   support: [globe, windows, apple, android]
 
-# - title: Ninja Sukafu
-#   image_path: ninja-sukafu.png
-#   description: O jogo classico original que deu origem ao Sukafu Team na Global Game Jam de 2014.
-#   external_url: https://sukafu-team.itch.io/ninja-sukafu
-#   genre: Platformer
-#   support: [windows]
-#   banner: false
+- title: Ninja Sukafu
+  image_path: ninja-sukafu.png
+  description: O jogo classico original que deu origem ao Sukafu Team na Global Game Jam de 2014.
+  external_url: https://sukafu-team.itch.io/ninja-sukafu
+  genre: Platformer
+  support: [windows]
+  banner: false
 
 # - title: Supermax Last Survivor
 #   image_path: supermax.png
