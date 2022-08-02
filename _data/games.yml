@@ -23,6 +23,14 @@
   support: [windows, linux, apple]
   banner: true
 
+- title: Kraken Escape
+  image_path: kraken-escape.png
+  description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
+  external_url: https://sukafu-team.itch.io/kraken-escape
+  genre: Action
+  support: [globe, windows, apple]
+  banner: true
+
 - title: Doggonaut
   image_path: doggonaut.png
   description: Doggonaut é um jogo de ação e puzzle para celulares onde você controla cachorros no espaço
@@ -63,14 +71,6 @@
   support: [globe, windows, linux, apple]
   banner: false
 
-- title: Kraken Escape
-  image_path: kraken-escape-jam.png
-  description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
-  external_url: http://sukafuteam.com/kraken_escape
-  genre: Action
-  support: []
-  banner: false
-
 - title: Beezness
   image_path: beezness.png
   description: Beezness é um jogo no estilo idle/tycoon.
@@ -104,13 +104,13 @@
   support: [windows]
   banner: false
 
-# - title: Kraken Escape (Jam Version)
-#   image_path: kraken-escape-jam.png
-#   description: Escape das afiadas garras do temido Kraken, o monstro dos mares
-#   external_url: https://sukafu-team.itch.io/kraken-escape-jam-version
-#   genre: Action
-#   support: [globe, android]
-#   banner: false
+- title: Kraken Escape (Jam Version)
+  image_path: kraken-escape-jam.png
+  description: Escape das afiadas garras do temido Kraken, o monstro dos mares
+  external_url: https://sukafu-team.itch.io/kraken-escape-jam-version
+  genre: Action
+  support: [globe]
+  banner: false
 
 - title: Sukafu Duel
   image_path: sukafu-duel.png
