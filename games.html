@@ -21,15 +21,27 @@ title: Games
                             </a>
                         </h1>
                     {% endif %}
+                    <ul class="game-icons">
+                    {% for support_platform in game.support %}
+                        <li>
+                            <i class="fa fa-{{support_platform}} white-icon"></i>
+                        </li>
+                    {% endfor %}
                     {% if game.support %}
-                        <ul class="game-icons">
-                        {% for support_platform in game.support %}
-                            <li>
-                                <i class="fa fa-{{support_platform}} white-icon"></i>
-                            </li>
-                        {% endfor %}
-                        </ul>
+                    <li class="">
+                        <a class="game-year white-link" href="{{ game.external_url }}" target="_blank">
+                            |
+                        </a>
+                    </li>
                     {% endif %}
+                    {% if game.year %}
+                        <li class="">
+                            <a class="game-year white-link" href="{{ game.external_url }}" target="_blank">
+                                {{ game.year }}
+                            </a>
+                        </li>
+                    {% endif %}
+                    </ul>
                 </footer>
             </article>
         {% endfor %}

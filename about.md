@@ -53,19 +53,19 @@ layout: page
 						{% if person.function %}<p class="game-description" style="text-align:center; margin:0">{{ person.function }}</p>{% endif %}
 
 						<p style="text-align:center; margin:0">
-							{% if person.facebook %}<a href="{{person.facebook}}" target="_blank">Facebook</a>{%endif%}
+							{% if person.facebook %} <a href="{{person.facebook}}" target="_blank">Facebook</a>{%endif%}
 
-							{% if person.instagram %}<a href="{{person.instagram}}"
-							target="_blank">Instagram</a>{%endif%}
+							{% if person.linkedin %} <a href="{{person.linkedin}}" target="_blank">Linkedin</a>{%endif%}
 
-							{% if person.website %}<a href="{{person.website}}"
-							target="_blank">Portfolio</a>{%endif%}
+							{% if person.instagram %} <a href="{{person.instagram}}" target="_blank">Instagram</a>{%endif%}
+
+							{% if person.website %} <a href="{{person.website}}" target="_blank">Portfolio</a>{%endif%}
 
 							{% if person.github %}| <a href="{{person.github}}" target="_blank">Github</a>{%endif%}
 
 							{% if person.twitter %}| <a href="{{person.twitter}}" target="_blank">Twitter</a>{%endif%}
 
-							{% if person.artstation %}<a href="{{person.artstation}}" target="_blank">Artstation</a>{%endif%}
+							{% if person.artstation %} <a href="{{person.artstation}}" target="_blank">Artstation</a>{%endif%}
 
 							{% if person.behance %}| <a href="{{person.behance}}" target="_blank">Behance</a>{%endif%}
 

@@ -6,6 +6,7 @@
   genre: Action
   support: [windows, apple]
   banner: true
+  year: 2022
 
 - title: Akina
   image_path: akina.png
@@ -14,6 +15,7 @@
   genre: Action
   support: [windows, linux, apple]
   banner: true
+  year: 2020
 
 - title: Kingdom Blast
   image_path: kingdom_blast.png
@@ -22,6 +24,7 @@
   genre: Action/Rhythm
   support: [windows, linux, apple]
   banner: true
+  year: 2018
 
 - title: Kraken Escape
   image_path: kraken-escape.png
@@ -30,6 +33,7 @@
   genre: Action
   support: [globe, windows, apple]
   banner: true
+  year: 2018
 
 - title: Doggonaut
   image_path: doggonaut.png
@@ -38,6 +42,7 @@
   genre: Action/Puzzle
   support: [apple]
   banner: true
+  year: 2018
 
 - title: Vida
   image_path: vida.png
@@ -46,6 +51,7 @@
   genre: Platformer
   support: [windows, linux, apple]
   banner: true
+  year: 2017
 
 - title: Tapioca Lendária
   image_path: tapioca-lendaria.png
@@ -54,6 +60,7 @@
   genre: Action
   support: [globe]
   banner: false
+  year: 2021
 
 - title: Lost Souls
   image_path: lost-souls.jpeg
@@ -62,6 +69,7 @@
   genre: Rhythm
   support: [windows, linux, apple]
   banner: false
+  year: 2021
 
 - title: Super Lawn Cutter
   image_path: super-lawn-cutter.png
@@ -70,14 +78,16 @@
   genre: Puzzle
   support: [globe, windows, linux, apple]
   banner: false
+  year: 2019
 
 - title: Beezness
   image_path: beezness.png
   description: Beezness é um jogo no estilo idle/tycoon.
   external_url: https://sukafu-team.itch.io/beezness
   genre: Simulation
-  support: []
+  # support: []
   banner: false
+  year: 2019
 
 - title: Plasma Invaders
   image_path: plasma-invaders.png
@@ -86,15 +96,17 @@
   genre: Strategy
   support: [windows, linux, apple, android]
   banner: false
+  year: 2018
 
 
-# - title: Cartolaria
-#   image_path: cartolaria.png
-#   description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
-#   external_url: https://sukafu-team.itch.io/cartolaria
-#   genre: Simulation
-#   support: []
-#   banner: false
+- title: Cartolaria
+  image_path: cartolaria.png
+  description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
+  external_url: https://sukafu-team.itch.io/cartolaria
+  genre: Simulation
+  # support: []
+  banner: false
+  year: 2017
 
 - title: Ninja Sukafu II
   image_path: ninja-sukafu-ii.png
@@ -103,6 +115,7 @@
   genre: Action
   support: [windows]
   banner: false
+  year: 2015
 
 - title: Kraken Escape (Jam Version)
   image_path: kraken-escape-jam.png
@@ -111,6 +124,7 @@
   genre: Action
   support: [globe]
   banner: false
+  year: 2018
 
 - title: Sukafu Duel
   image_path: sukafu-duel.png
@@ -119,6 +133,7 @@
   genre: Action
   support: [globe, windows, linux, apple, android]
   banner: false
+  year: 2017
 
 # - title: Sukafu Radio
 #   image_path: sukafu-radio.png
@@ -128,13 +143,14 @@
 #   support: [windows, linux, apple]
 #   banner: false
 
-# - title: Sukafu Neon
-#   image_path: sukafu-neon.png
-#   description: Jogo desenvolvido para Global Game Jam, edição 2016.
-#   external_url: https://sukafu-team.itch.io/sukafu-neon
-#   genre: Action
-#   support: [globe, windows, linux, apple, android]
-#   banner: false
+- title: Sukafu Neon
+  image_path: sukafu-neon.png
+  description: Jogo desenvolvido para Global Game Jam, edição 2016.
+  external_url: https://sukafu-team.itch.io/sukafu-neon
+  genre: Action
+  support: [globe, windows, linux, apple, android]
+  banner: false
+  year: 2016
 
 - title: Bounded
   image_path: bounded.png
@@ -143,6 +159,7 @@
   genre: Puzzle
   support: [globe, windows, linux, apple, android]
   banner: false
+  year: 2016
 
 - title: Jornada Paralímpica
   image_path: jornada-paralimpica.png
@@ -151,6 +168,7 @@
   genre: Action
   support: [globe, windows, linux, apple, android]
   banner: false
+  year: 2016
 
 - title: PrevEnchente
   image_path: prev-enchente.png
@@ -158,6 +176,7 @@
   external_url: https://sukafu-team.itch.io/prev-enchente
   genre: Puzzle
   support: [globe, windows, apple, android]
+  year: 2015
 
 - title: Ninja Sukafu
   image_path: ninja-sukafu.png
@@ -166,6 +185,7 @@
   genre: Platformer
   support: [windows]
   banner: false
+  year: 2014
 
 # - title: Supermax Last Survivor
 #   image_path: supermax.png
