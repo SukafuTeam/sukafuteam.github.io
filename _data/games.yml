@@ -53,6 +53,15 @@
   banner: true
   year: 2017
 
+- title: Caça Minhoca
+  image_path: caca-minhoca.png
+  description: Pequeno jogo para dois jogadores sobre coletar minhocas para seus filhotes
+  external_url: https://sukafu-team.itch.io/caca-minhoca
+  genre: Action
+  support: [globe]
+  banner: false
+  year: 2023
+
 - title: Tapioca Lendária
   image_path: tapioca-lendaria.png
   description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
