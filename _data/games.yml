@@ -1,4 +1,13 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Root Access
+  image_path: root-access.png
+  description: This is a hacking game made in 48 hours for Global Game Jam 2023 
+  external_url: https://sukafu-team.itch.io/root-access
+  genre: Simulation
+  support: [windows, apple]
+  banner: true
+  year: 2023
+
 - title: Ninja Sukafu - Between Worlds
   image_path: sukafu-between-worlds.png
   description: Be brave Ninja Sukafu, Tarkus’ life and the future of Meriluu Village are in your hands. Good Luck!
