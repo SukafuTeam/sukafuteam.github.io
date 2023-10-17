@@ -62,6 +62,15 @@
   banner: true
   year: 2017
 
+- title: Ninja Sukafu Dimension Rush
+  image_path: sukafu-dimension-rush.png
+  description: A retro styled 3D platformer with Ninja Sukafu
+  external_url: https://sukafu-team.itch.io/ninja-sukafu-dimension-rush
+  genre: Platformer
+  support: [globe, windows, linux, apple]
+  banner: false
+  year: 2023
+
 - title: Caça Minhoca
   image_path: caca-minhoca.png
   description: Pequeno jogo para dois jogadores sobre coletar minhocas para seus filhotes
