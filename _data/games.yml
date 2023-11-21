@@ -1,4 +1,13 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Ultimate Rolimã Racer Turbo Attack 98
+  image_path: rolima-racer.png
+  description: Um jogo de corrida sobre carrinhos de rolimã nas ruas do Brasil dos anos 90!
+  external_url: https://sukafu-team.itch.io/ultimate-rolima-racer
+  genre: Racing
+  support: [globe]
+  banner: true
+  year: 2023
+
 - title: Root Access
   image_path: root-access.png
   description: This is a hacking game made in 48 hours for Global Game Jam 2023 
