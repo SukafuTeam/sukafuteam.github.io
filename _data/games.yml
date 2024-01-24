@@ -33,7 +33,7 @@
   genre: Action
   support: [windows, linux, apple]
   banner: true
-  year: 2020
+  year: 2019
 
 - title: Kingdom Blast
   image_path: kingdom_blast.png
@@ -47,7 +47,7 @@
 - title: Kraken Escape
   image_path: kraken-escape.png
   description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
-  external_url: https://sukafu-team.itch.io/kraken-escape
+  external_url: http://sukafuteam.com/kraken_escape
   genre: Action
   support: [globe, windows, apple]
   banner: true
@@ -58,7 +58,7 @@
   description: Doggonaut é um jogo de ação e puzzle para celulares onde você controla cachorros no espaço
   external_url: http://sukafuteam.com/doggonaut
   genre: Action/Puzzle
-  support: [apple]
+  support: [globe, windows, apple, linux]
   banner: true
   year: 2018
 
