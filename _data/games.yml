@@ -1,12 +1,12 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
-- title: Ultimate Rolimã Racer Turbo Attack 98
-  image_path: rolima-racer.png
+- title: Dental Striker
+  image_path: dental-striker.png
   description: Um jogo de corrida sobre carrinhos de rolimã nas ruas do Brasil dos anos 90!
-  external_url: https://sukafu-team.itch.io/ultimate-rolima-racer
-  genre: Racing
-  support: [globe]
+  external_url: https://sukafu-team.itch.io/dental-striker
+  genre: Action
+  support: [windows, linux, apple]
   banner: true
-  year: 2023
+  year: 2024
 
 - title: Root Access
   image_path: root-access.png
@@ -17,15 +17,6 @@
   banner: true
   year: 2023
 
-- title: Ninja Sukafu - Between Worlds
-  image_path: sukafu-between-worlds.png
-  description: Be brave Ninja Sukafu, Tarkus’ life and the future of Meriluu Village are in your hands. Good Luck!
-  external_url: https://sukafu-team.itch.io/ninja-sukafu-between-worlds
-  genre: Action
-  support: [windows, apple]
-  banner: true
-  year: 2022
-
 - title: Akina
   image_path: akina.png
   description: Help a lost dog found his home in this game made for Global Game Jam 2019
@@ -34,15 +25,6 @@
   support: [windows, linux, apple]
   banner: true
   year: 2019
-
-- title: Kingdom Blast
-  image_path: kingdom_blast.png
-  description: Encoraje os bravos guerreiros do seu exército com a melhor torcida de idade média
-  external_url: https://sukafu-team.itch.io/kingdom-blast
-  genre: Action/Rhythm
-  support: [windows, linux, apple]
-  banner: true
-  year: 2018
 
 - title: Kraken Escape
   image_path: kraken-escape.png
@@ -62,14 +44,14 @@
   banner: true
   year: 2018
 
-- title: Vida
-  image_path: vida.png
-  description: VIDA é um jogo de plataforma com foco em ação, em escala de cinza e com um visual deslumbrante.
-  external_url: https://sukafu-team.itch.io/vida
-  genre: Platformer
-  support: [windows, linux, apple]
-  banner: true
-  year: 2017
+- title: Ultimate Rolimã Racer Turbo Attack 98
+  image_path: rolima-racer.png
+  description: Um jogo de corrida sobre carrinhos de rolimã nas ruas do Brasil dos anos 90!
+  external_url: https://sukafu-team.itch.io/ultimate-rolima-racer
+  genre: Racing
+  support: [globe]
+  banner: false
+  year: 2023
 
 - title: Ninja Sukafu Dimension Rush
   image_path: sukafu-dimension-rush.png
@@ -88,6 +70,15 @@
   support: [globe]
   banner: false
   year: 2023
+
+- title: Ninja Sukafu - Between Worlds
+  image_path: sukafu-between-worlds.png
+  description: Be brave Ninja Sukafu, Tarkus’ life and the future of Meriluu Village are in your hands. Good Luck!
+  external_url: https://sukafu-team.itch.io/ninja-sukafu-between-worlds
+  genre: Action
+  support: [windows, apple]
+  banner: false
+  year: 2022
 
 - title: Tapioca Lendária
   image_path: tapioca-lendaria.png
@@ -134,24 +125,14 @@
   banner: false
   year: 2018
 
-
-- title: Cartolaria
-  image_path: cartolaria.png
-  description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
-  external_url: https://sukafu-team.itch.io/cartolaria
-  genre: Simulation
-  # support: []
+- title: Kingdom Blast
+  image_path: kingdom-blast.png
+  description: Encoraje os bravos guerreiros do seu exército com a melhor torcida de idade média
+  external_url: https://sukafu-team.itch.io/kingdom-blast
+  genre: Action/Rhythm
+  support: [windows, linux, apple]
   banner: false
-  year: 2017
-
-- title: Ninja Sukafu II
-  image_path: ninja-sukafu-ii.png
-  description: Jogo feito pela Sukafu Team para a Global Game Jam, edição 2015. (Eleito melhor jogo do evento na PUCPR).
-  external_url: https://sukafu-team.itch.io/ninja-sukafu-ii
-  genre: Action
-  support: [windows]
-  banner: false
-  year: 2015
+  year: 2018
 
 - title: Kraken Escape (Jam Version)
   image_path: kraken-escape-jam.png
@@ -161,6 +142,24 @@
   support: [globe]
   banner: false
   year: 2018
+
+- title: Vida
+  image_path: vida.png
+  description: VIDA é um jogo de plataforma com foco em ação, em escala de cinza e com um visual deslumbrante.
+  external_url: https://sukafu-team.itch.io/vida
+  genre: Platformer
+  support: [windows, linux, apple]
+  banner: false
+  year: 2017
+
+- title: Cartolaria
+  image_path: cartolaria.png
+  description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
+  external_url: https://sukafu-team.itch.io/cartolaria
+  genre: Simulation
+  # support: []
+  banner: false
+  year: 2017
 
 - title: Sukafu Duel
   image_path: sukafu-duel.png
@@ -212,6 +211,15 @@
   external_url: https://sukafu-team.itch.io/prev-enchente
   genre: Puzzle
   support: [globe, windows, apple, android]
+  year: 2015
+
+- title: Ninja Sukafu II
+  image_path: ninja-sukafu-ii.png
+  description: Jogo feito pela Sukafu Team para a Global Game Jam, edição 2015. (Eleito melhor jogo do evento na PUCPR).
+  external_url: https://sukafu-team.itch.io/ninja-sukafu-ii
+  genre: Action
+  support: [windows]
+  banner: false
   year: 2015
 
 - title: Ninja Sukafu
