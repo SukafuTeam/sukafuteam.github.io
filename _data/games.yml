@@ -1,25 +1,22 @@
 # http://fontawesome.io/icons/ icon options for 'support' property
+- title: Capy Bubble
+  image_path: capy-bubble.png
+  external_url: https://sukafu-team.itch.io/capy-bubble
+  genre: Action
+  support: [windows, linux, apple]
+  banner: true
+  year: 2025
+
 - title: Dental Striker
   image_path: dental-striker.png
-  description: Um jogo de corrida sobre carrinhos de rolimã nas ruas do Brasil dos anos 90!
   external_url: https://sukafu-team.itch.io/dental-striker
   genre: Action
   support: [windows, linux, apple]
   banner: true
   year: 2024
 
-- title: Root Access
-  image_path: root-access.png
-  description: This is a hacking game made in 48 hours for Global Game Jam 2023 
-  external_url: https://sukafu-team.itch.io/root-access
-  genre: Simulation
-  support: [windows, apple]
-  banner: true
-  year: 2023
-
 - title: Akina
   image_path: akina.png
-  description: Help a lost dog found his home in this game made for Global Game Jam 2019
   external_url: https://sukafu-team.itch.io/akina
   genre: Action
   support: [windows, linux, apple]
@@ -28,7 +25,6 @@
 
 - title: Kraken Escape
   image_path: kraken-escape.png
-  description: Escape das afiadas garras do temido Kraken, o monstro dos mares!
   external_url: http://sukafuteam.com/kraken_escape
   genre: Action
   support: [globe, windows, apple]
@@ -37,16 +33,22 @@
 
 - title: Doggonaut
   image_path: doggonaut.png
-  description: Doggonaut é um jogo de ação e puzzle para celulares onde você controla cachorros no espaço
   external_url: http://sukafuteam.com/doggonaut
   genre: Action/Puzzle
   support: [globe, windows, apple, linux]
   banner: true
   year: 2018
 
+- title: Root Access
+  image_path: root-access.png
+  external_url: https://sukafu-team.itch.io/root-access
+  genre: Simulation
+  support: [windows, apple]
+  banner: false
+  year: 2023
+
 - title: Ultimate Rolimã Racer Turbo Attack 98
   image_path: rolima-racer.png
-  description: Um jogo de corrida sobre carrinhos de rolimã nas ruas do Brasil dos anos 90!
   external_url: https://sukafu-team.itch.io/ultimate-rolima-racer
   genre: Racing
   support: [globe]
@@ -55,7 +57,6 @@
 
 - title: Ninja Sukafu Dimension Rush
   image_path: sukafu-dimension-rush.png
-  description: A retro styled 3D platformer with Ninja Sukafu
   external_url: https://sukafu-team.itch.io/ninja-sukafu-dimension-rush
   genre: Platformer
   support: [globe, windows, linux, apple]
@@ -64,7 +65,6 @@
 
 - title: Caça Minhoca
   image_path: caca-minhoca.png
-  description: Pequeno jogo para dois jogadores sobre coletar minhocas para seus filhotes
   external_url: https://sukafu-team.itch.io/caca-minhoca
   genre: Action
   support: [globe]
@@ -73,7 +73,6 @@
 
 - title: Ninja Sukafu - Between Worlds
   image_path: sukafu-between-worlds.png
-  description: Be brave Ninja Sukafu, Tarkus’ life and the future of Meriluu Village are in your hands. Good Luck!
   external_url: https://sukafu-team.itch.io/ninja-sukafu-between-worlds
   genre: Action
   support: [windows, apple]
@@ -82,7 +81,6 @@
 
 - title: Tapioca Lendária
   image_path: tapioca-lendaria.png
-  description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
   external_url: https://sukafu-team.itch.io/tapioca-lendaria
   genre: Action
   support: [globe]
@@ -91,7 +89,6 @@
 
 - title: Lost Souls
   image_path: lost-souls.jpeg
-  description: In this rhythm-based game, you can help lost souls to find their groove and scape from the void room.
   external_url: https://sukafu-team.itch.io/lost-souls
   genre: Rhythm
   support: [windows, linux, apple]
@@ -100,7 +97,6 @@
 
 - title: Super Lawn Cutter
   image_path: super-lawn-cutter.png
-  description: Um pequeno jogo de puzzle onde voce deve cortar toda a grama sem cruzar o mesmo caminho duas vezes
   external_url: https://sukafu-team.itch.io/super-lawn-cutter
   genre: Puzzle
   support: [globe, windows, linux, apple]
@@ -109,7 +105,6 @@
 
 - title: Beezness
   image_path: beezness.png
-  description: Beezness é um jogo no estilo idle/tycoon.
   external_url: https://sukafu-team.itch.io/beezness
   genre: Simulation
   # support: []
@@ -118,7 +113,6 @@
 
 - title: Plasma Invaders
   image_path: plasma-invaders.png
-  description: Controle um exército de glóbulos brancos defendendo o corpo humano de vírus e bacterias
   external_url: https://sukafu-team.itch.io/plasma-invaders
   genre: Strategy
   support: [windows, linux, apple, android]
@@ -127,7 +121,6 @@
 
 - title: Kingdom Blast
   image_path: kingdom-blast.png
-  description: Encoraje os bravos guerreiros do seu exército com a melhor torcida de idade média
   external_url: https://sukafu-team.itch.io/kingdom-blast
   genre: Action/Rhythm
   support: [windows, linux, apple]
@@ -136,7 +129,6 @@
 
 - title: Kraken Escape (Jam Version)
   image_path: kraken-escape-jam.png
-  description: Escape das afiadas garras do temido Kraken, o monstro dos mares
   external_url: https://sukafu-team.itch.io/kraken-escape-jam-version
   genre: Action
   support: [globe]
@@ -145,7 +137,6 @@
 
 - title: Vida
   image_path: vida.png
-  description: VIDA é um jogo de plataforma com foco em ação, em escala de cinza e com um visual deslumbrante.
   external_url: https://sukafu-team.itch.io/vida
   genre: Platformer
   support: [windows, linux, apple]
@@ -154,7 +145,6 @@
 
 - title: Cartolaria
   image_path: cartolaria.png
-  description: Protótipo de um album de figurinhas digital desenvolvido em 48h na Brasil Game Jam 2017
   external_url: https://sukafu-team.itch.io/cartolaria
   genre: Simulation
   # support: []
@@ -163,7 +153,6 @@
 
 - title: Sukafu Duel
   image_path: sukafu-duel.png
-  description: Jogo de ação para dois ou mais jogadores onde o mais rápido vence
   external_url: https://sukafu-team.itch.io/sukafu-duel
   genre: Action
   support: [globe, windows, linux, apple, android]
@@ -172,7 +161,6 @@
 
 # - title: Sukafu Radio
 #   image_path: sukafu-radio.png
-#   description: A platformer/hack'n slash game where you control RD-10
 #   external_url: https://sukafu-team.itch.io/sukafu-radio
 #   genre: Action
 #   support: [windows, linux, apple]
@@ -180,7 +168,6 @@
 
 - title: Sukafu Neon
   image_path: sukafu-neon.png
-  description: Jogo desenvolvido para Global Game Jam, edição 2016.
   external_url: https://sukafu-team.itch.io/sukafu-neon
   genre: Action
   support: [globe, windows, linux, apple, android]
@@ -189,7 +176,6 @@
 
 - title: Bounded
   image_path: bounded.png
-  description: Jogo feito pelo Sukafu Team durante a Winter Game Jam 2016. (Eleito melhor jogo do evento).
   external_url: https://sukafu-team.itch.io/bounded
   genre: Puzzle
   support: [globe, windows, linux, apple, android]
@@ -198,7 +184,6 @@
 
 - title: Jornada Paralímpica
   image_path: jornada-paralimpica.png
-  description: Jogo desenvolvido pela Sukafu Team para a Paralympic Game Jam, edição 2016. (Eleito melhor jogo do evento).
   external_url: https://sukafu-team.itch.io/jornada-paralimpica
   genre: Action
   support: [globe, windows, linux, apple, android]
@@ -215,7 +200,6 @@
 
 - title: Ninja Sukafu II
   image_path: ninja-sukafu-ii.png
-  description: Jogo feito pela Sukafu Team para a Global Game Jam, edição 2015. (Eleito melhor jogo do evento na PUCPR).
   external_url: https://sukafu-team.itch.io/ninja-sukafu-ii
   genre: Action
   support: [windows]
@@ -224,7 +208,6 @@
 
 - title: Ninja Sukafu
   image_path: ninja-sukafu.png
-  description: O jogo classico original que deu origem ao Sukafu Team na Global Game Jam de 2014.
   external_url: https://sukafu-team.itch.io/ninja-sukafu
   genre: Platformer
   support: [windows]
@@ -233,7 +216,6 @@
 
 # - title: Supermax Last Survivor
 #   image_path: supermax.png
-#   description: Jogo feito durante a Brasil Game Jam 2016. Dentro da Brasil Game Show 2016
 #   external_url: https://sukafu-team.itch.io/supermax-last-survivor
 #   genre: Puzzle
 #   support: [windows, linux, apple, android]
@@ -241,7 +223,6 @@
 
 # - title: Sukafu Radio (Jam Version)
 #   image_path: sukafu-radio-jam.png
-#   description: A plataformer/hack'n slash made in Global Game Jam 2017
 #   external_url: https://sukafu-team.itch.io/sukafu-radio-jam
 #   genre: Action
 #   support: [windows, linux, apple]
